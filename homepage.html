@@ -3,92 +3,469 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Architectural website to inspire</title>
-    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet"
+     href="styles.css">
+
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
 </head>
 <body>
+
+    <nav class="nav-wrapper-outside global-padding">
+        <div class="nav-wrapper-inside">
+            <div class="nav-items-wrapper__left">
+                <a class="nav-button__tutorial nav-button-wrapper" href="#">Watch Tutorial</a>
+                <a class="nav-button__clone nav-button-wrapper" href="#">Clone this site</a>
+                <a class="nav-button__cloneInfo nav-button-wrapper" href="#">Cloneable Info</a>
+            </div>
+            <div class="nav-items-wrapper__right">
+                <span class="infotext">
+                    More tutorials at:
+                    <a href="#" target="_blank" class="text-gray">
+                        webflow-lernen.de/tutorials
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
     <main>
-        <head>
-            <nav class="nav-wrapper-outside global-padding">
-                <div class="nav-wrapper-inside">
-                    <div class="nav-items-wrapper__left">
-                        <div class="nav-button-wrapper">
-                            <a class="nav-button__tutorial"
-                            href="%">Watch Tutorial</a>
-                        </div>
-                        <div class="nav-button-wrapper">
-                            <a class="nav-button__clone"
-                            href="%">Clone this site</a>
-                        </div>
-                        <div class="nav-button-wrapper">
-                            <a class="nav-button__cloneInfo"
-                            href="%">Cloneable Info</a>
-                        </div>
-                    </div>
-                    <div class="nav-items-wrapper__right">
-                        <div class="infotext">
-                            More tutorials at: 
-                            <a 
-                            href="#"
-                            target="_blank"
-                            class="text-gray">
-                                webflow-lernen.de/tutorials
-                            </a>
-                        </div>
-                    </div>
+        <div class="blog-header-warpper global-padding">
+            <h1 class="blod-head-text-wrapper">
+                <span class="static">J</span>
+                <span class="animated">O</span>
+                <span class="animated">U</span>
+                <span class="animated">R</span>
+                <span class="animated">N</span>
+                <span class="animated">A</span>
+                <span class="animated">L</span>
+            </h1>
+        </div>
+        <div class="blog-header-divider">
+            <div class="blog-header__divider-line"></div>
+        </div>
+        
+        <section class="blog-post-wrapper global-padding">
 
-                </div>
-            </nav>
-            <div class="page-wrapper">
-                <div class="blog-header-warpper global-padding"> 
-                    <div class="blog-head-inner">
-                        <h1 class="blod-head-text-wrapper">
-                            <span class="static">J</span>
-                            <span class="animated" >O</span>
-                            <span class="animated" >U</span>
-                            <span class="animated" >R</span>
-                            <span class="animated" >N</span>
-                            <span class="animated" >A</span>
-                            <span class="animated" >L</span>
-                        </h1>
-                    </div>
+            <div class="blog-grid-wrapper">
 
-                </div>
-
-                <div class="blog-header-divider">
-                    <div class="blog-header__divider-line">
-                    </div>
-                </div>
-
-                <div class="blog-posts-warpper global-padding">
-                    <div class="blog-grid-wrapper">
-                        <div class="blog-post-item-wrapper post__1">
-                            <div class="post-item-wrapper">
-                                <div class="post" role="list">
-                                    <div class="blog-post-header-wrapper">
-                                        <div class="blog-post-categories-wrapper">
-                                            Planning
-                                        </div>
-                                        <div class="blog-post-date-wrapper">
-                                            Planning
-                                        </div>
-                                    </div>
-                                    <a href="#" class="post-image-wrapper">
-                                        <div>
-                                            <img 
-                                            class="image-stricter"
-                                            src="images/ai-generated-modern-styled-entryway (1).jpg" 
-                                            alt="An interio design made by wood while 
-                                            the sun is brightening the area">
-                                        </div>
-                                    </a>
-                                </div>
+                <article class="blog-post-item-wrapper">
+                    <div class="post-item-wrapper">
+                        <div class="post" role="list">
+                            <div class="blog-post-header-wrapper ">
+                                <span class="blog-post-categories-wrapper">Planning</span>
+                                <span class="blog-post-date-wrapper">2/11/2024</span>
+                            </div>
+                            <div class="post-image-wrapper">
+                                <a href="#">
+                                    <img
+                                        class="image-stricter"
+                                        src="images/ai-generated-modern-styled-entryway (1).jpg"
+                                        alt="An interior design made by wood while the sun is brightening the area">
+                                </a>
+                            </div>
+                            <div class="blog-text-wrapper">
+                                <p class="blog-text__title">Space planning is a fundamental 
+                                    element of the interior design</p>
+                                <p class="blog-text__desc">
+                                    The designer then draws up a plan that 
+                                    defines the zones of the space and the 
+                                    activities that will take place in those 
+                                    zones. The space plan will also define 
+                                    the circulation patterns that show how 
+                                    people will move through the space.</p>
                             </div>
                         </div>
-                </div>
+                    </div>
+                </article>
+
+
+                <article class="blog-post-item-wrapper">
+                    <div class="post-item-wrapper">
+                        <div class="post" role="list">
+                            <div class="blog-post-header-wrapper">
+                                <span class="blog-post-categories-wrapper">Planning</span>
+                                <span class="blog-post-date-wrapper">10/09/2024</span>
+                            </div>
+                            <div class="post-image-wrapper">
+                                <a href="#">
+                                    <img
+                                        class="image-stricter"
+                                        
+                                        src="images\ai-generated-modern-styled-entryway.jpg"
+                                        alt="An interior design made by wood while the sun is brightening the area">
+                                </a>
+                            </div>
+                            <div class="blog-text-wrapper">
+                                <p class="blog-text__title">Nature Can Be the Best Medicine</p>
+                                <p class="blog-text__desc">
+                                    Here are 10 of the Best Indoor Plant Decor Pages to 
+                                    Follow. When you think about houseplants, your mind
+                                    might immediately jump to the Monstera deliciosa
+                                    with its peculiar hole-covered leaves, or the 
+                                    equally common Philodendron.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="blog-quote-item-wrapper">
+                    <div class="quote-item-wrapper">
+                        <p class="blog-quote__text John_Maeda">Simplicity is about subtracting 
+                            the obvious and adding the meaningful.</p>
+                        <p class="blog-quote__author">John_Maeda</p>
+                    </div>
+                </article>
+
+
+                <article class="blog-post-item-wrapper">
+                    <div class="post-item-wrapper">
+                        <div class="post" role="list">
+                            <div class="blog-post-header-wrapper">
+                                <span class="blog-post-categories-wrapper">Planning</span>
+                                <span class="blog-post-date-wrapper">15/08/2024</span>
+                            </div>
+                            <div class="post-image-wrapper">
+                                <a href="#">
+                                    <img
+                                        class="image-stricter"
+                                        
+                                        src="images/istockphoto-1264798472-2048x2048.jpg"
+                                        alt="An interior design made by wood while the sun is brightening the area">
+                                </a>
+                            </div>
+                            <div class="blog-text-wrapper">
+                                <p class="blog-text__title">Plan your entrance area the easy way</p>
+                                <p class="blog-text__desc">
+                                    Suspendisse varius enim in eros elementum tristique. 
+                                    Duis cursus, mi quis viverra ornare, eros dolor 
+                                    interdum nulla, ut commodo diam libero vitae erat. </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="blog-post-item-wrapper">
+                    <div class="post-item-wrapper">
+                        <div class="post" role="list">
+                            <div class="blog-post-header-wrapper">
+                                <span class="blog-post-categories-wrapper">Thoughts</span>
+                                <span class="blog-post-date-wrapper">13/08/2024</span>
+                            </div>
+                            <div class="post-image-wrapper">
+                                <a href="#">
+                                    <img
+                                        class="image-stricter"
+                                        
+                                        src="images/pexels-kseniachernaya-6021895.jpg"
+                                        alt="An interior design made by wood while the sun is brightening the area">
+                                </a>
+                            </div>
+                            <div class="blog-text-wrapper">
+                                <p class="blog-text__title">Plan your entrance area the easy way</p>
+                                <p class="blog-text__desc">
+                                    Suspendisse varius enim in eros elementum tristique.
+                                    Duis cursus, mi quis viverra ornare, eros dolor 
+                                    interdum nulla, ut commodo diam libero vitae erat. 
+                                    Aenean faucibus nibh et justo cursus id rutrum lorem 
+                                    imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                
+                <article class="blog-post-item-wrapper">
+                    <div class="post-item-wrapper">
+                        <div class="post" role="list">
+                            <div class="blog-post-header-wrapper">
+                                <span class="blog-post-categories-wrapper">Design</span>
+                                <span class="blog-post-date-wrapper">13/08/2024</span>
+                            </div>
+                            <div class="post-image-wrapper">
+                                <a href="#">
+                                    <img
+                                        class="image-stricter"
+                                        
+                                        src="images/polina-kuzovkova-zsFWKtypwK8-unsplash.jpg"
+                                        alt="An interior design made by wood while the sun is brightening the area">
+                                </a>
+                            </div>
+                            <div class="blog-text-wrapper">
+                                <p class="blog-text__title">Good Design is essential to a living room.</p>
+                                <p class="blog-text__desc">
+                                    Suspendisse varius enim in eros elementum tristique.
+                                    Duis cursus, mi quis viverra ornare, eros dolor 
+                                    interdum nulla, ut commodo diam libero vitae erat. 
+                                    Aenean faucibus nibh et justo cursus id rutrum lorem 
+                                    imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="blog-announce-item-wrapper">
+                        <div class="announce-image__background">
+                            <div class="announce-item-wrapper">
+                                <p class="ann__title">Webflow Masterclass</p>
+                                <p class="ann__desc">Become A Professional Web Designer</p>
+                                <a class="course__btn"
+                                href="#" 
+                                target="_blank">View Course</a>
+                            </div>
+                        </div>
+                </article>
+
+                <article class="blog-post-item-wrapper">
+                    <div class="post-item-wrapper">
+                        <div class="post" role="list">
+                            <div class="blog-post-header-wrapper">
+                                <span class="blog-post-categories-wrapper">Design</span>
+                                <span class="blog-post-date-wrapper">13/08/2024</span>
+                            </div>
+                            <div class="post-image-wrapper">
+                                <a href="#">
+                                    <img
+                                        class="image-stricter"
+                                        
+                                        src="images/linh-le-giP0e750Dr8-unsplash.jpg"
+                                        alt="An interior design made by wood while the sun is brightening the area">
+                                </a>
+                            </div>
+                            <div class="blog-text-wrapper">
+                                <p class="blog-text__title">Good Design is essential to a living room.</p>
+                                <p class="blog-text__desc">
+                                    Suspendisse varius enim in eros elementum tristique.
+                                    Duis cursus, mi quis viverra ornare, eros dolor 
+                                    interdum nulla, ut commodo diam libero vitae erat. 
+                                    Aenean faucibus nibh et justo cursus id rutrum lorem 
+                                    imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-post-item-wrapper">
+                    <div class="post-item-wrapper">
+                        <div class="post" role="list">
+                            <div class="blog-post-header-wrapper">
+                                <span class="blog-post-categories-wrapper">Design</span>
+                                <span class="blog-post-date-wrapper">13/08/2024</span>
+                            </div>
+                            <div class="post-image-wrapper">
+                                <a href="#">
+                                    <img
+                                        class="image-stricter"
+                                        
+                                        src="images/ruben-ramirez-XiDbCLyJKd4-unsplash.jpg"
+                                        alt="An interior design made by wood while the sun is brightening the area">
+                                </a>
+                            </div>
+                            <div class="blog-text-wrapper">
+                                <p class="blog-text__title">Good Design is essential to a living room.</p>
+                                <p class="blog-text__desc">
+                                    Suspendisse varius enim in eros elementum tristique.
+                                    Duis cursus, mi quis viverra ornare, eros dolor 
+                                    interdum nulla, ut commodo diam libero vitae erat. 
+                                    Aenean faucibus nibh et justo cursus id rutrum lorem 
+                                    imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-contact-item-wrapper">
+                    <div class="contact-item-wrapper">
+                        <div class="icons" role="list">
+                            <div class="blog-contact-listitem-wrapper">
+                                <p>Follow us</p>
+
+                                <span class="blog-contact__icons">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </span>
+
+                                <span class="blog-contact__icons">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </span>
+
+                                <span class="blog-contact__icons">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </span>
+
+                                <span class="blog-contact__icons">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
 
             </div>
-        </head>
+
+        </section>
+
         
+        <section class="blog-author-Decelration-wrapper">
+            <div class="global-padding">
+                <h2 class="author-Decelration__title">
+                Cloneable info   
+            </h2>
+            <p class="author-Decelration__desc">
+                My YouTube Webflow community asked for a nice grid design 
+                as a tutorial, so I recreated Vitaa Architects' Journal 
+                section as an example: have a look at the original website 
+                here:<br>
+                <span><a style="text-decoration: underline;" href="#">vitaarchitecture.com/journal</a></span>
+                <br>
+                They didn't use css grid for their layout but I found 
+                it is a perfect use case for it. <br>
+                The grid contains several collection lists which are always 
+                limited to one item. This allowed me to create a more varied grid 
+                design. 
+                <br>
+                I also use a fluid design system. It scales down the grid on 
+                the desktop breakpoint from 1600px downwards. The custom CSS for
+                this is written in the global-css embed. <br>
+                <br>🖤<br>
+            </p>
+            </div>
+        </section>
+
+        <section class="blog-tuto-wrapper global-padding">
+            <h2 class="blog-tuto-head__text">Tutorials</h2>
+            <div class="blog-tuto-item-wrapper">
+                <div class="blog-tuto-vide-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/9plbrIo4lfM?si=8x0kM2wx8P1gGgjE" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; 
+                                encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                    </iframe>
+                    <p class="blog-video-desc">Grid Build in Webflow</p>
+                </div>
+                    
+                <div class="blog-tuto-vide-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/-AQyI3VMCoA" 
+                        title="3D Text Animation in Webflow bauen (Tutorial)" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                        encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                    </iframe>
+                    <p class="blog-video-desc">Grid Animation Tutorial</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="blog-footer-wrapper">
+            
+                <div class="blog-footer-list-wrapper__main-grid global-padding">
+                    
+                    <div class="blog-footer-listitem-wrapper">
+                        <div class="blog-footer-profil-wrapper">
+                            <div class="blog-footer-profile__image">
+                                <img 
+                                    class="profile__image"
+                                    loading="lazy"
+                                    src="images/edit.png" 
+                                    alt=" a profile imagebof the frontend developer">
+                            </div>
+                            <div class="blog-footer-profile__flag">
+                                    <img class="flag__image"
+                                    loading="lazy"
+                                    src="images/flag-iran.png" alt="iranian flag">
+                            </div>
+                        </div>    
+                        <div class="blog-footer-profil-desc-wrapper">
+                            <div class="blog-footer-profil-desc_grid">
+
+                                <div class="blog-footer-profile-desc-wrapper">
+                                    
+                                    <h3 class="blog-footer-profile-desc__title">
+                                        Hi My name is Hossein<br>
+                                        <span style="font-size:0.8em;">and I'm a Frontend developer 
+                                        <br> from Itay</span>
+                                    </h3>
+
+                                    <p class="blog-footer-prof-desc__text">
+                                    I've always been passionate about design and visual 
+                                    creativity, which naturally led me to frontend development. 
+                                    I love bringing ideas to life—whether it's a layout, color 
+                                    scheme, or animation—and turning imagination into interactive
+                                        experiences. It's more than coding; it's my way of 
+                                        expressing creativity.
+                                    </p>
+
+                                    <a 
+                                    class="github__link"
+                                    target="_blank"
+                                    href="https://github.com/hosseinghandi"> 
+                                    My github
+                                    </a>
+                                </div>
+
+
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-footer-listitem-wrapper">
+
+                        <div class="blog-footer-media-wrapper">
+                            
+                            <div class="blog-footer-media-wrapper__box">
+                                <img class="media-logo" 
+                                loading="lazy"
+                                src="images\Youtub.webp" 
+                                alt="Youtub's logo">
+                                <p class="icon_desc">Watch free Webflow <br>tutorials</p>
+                            </div>
+                            
+                            <div class="blog-footer-media-wrapper__box">
+                                <img class="media-logo"
+                                loading="lazy"
+                                src="images/Patreon.png" 
+                                alt="patreon's logo">
+                                <p class="icon_desc">Support my work on <br>Patreon</p>
+                            </div>
+                           
+                            <div class="blog-footer-media-wrapper__box">
+                                <img class="media-logo"
+                                loading="lazy"
+                                src="images/web.png" 
+                                alt="webeflow logo">
+                                <p class="icon_desc">Follow me on Webflow <br>showcases</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-footer-listitem-wrapper">
+                        <div class="blog-footer-icons">
+                            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://dribbble.com" target="_blank"><i class="fa-brands fa-dribbble"></i></a>
+                            <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://soundcloud.com" target="_blank"><i class="fa-brands fa-soundcloud"></i></a>
+                            <a href="https://pinterest.com" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+                            <a href="https://patreon.com" target="_blank"><i class="fa-brands fa-patreon"></i></a>
+                            <a href="https://webflow.com" target="_blank"><i class="fa-brands fa-webflow"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
     </main>
 </body>
 </html>

@@ -906,6 +906,7 @@ iframe {
     .blog-footer-media-wrapper{
         grid-template-columns: repeat(3,1fr);
     }
+    
     }
 
     

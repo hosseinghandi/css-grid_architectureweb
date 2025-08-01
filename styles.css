@@ -870,21 +870,19 @@ iframe {
         gap: 2em;
     }
 
-    
-
     .blog-footer-profile-desc-wrapper h3, 
     .blog-footer-profile-desc__title{
         font-size: 3em;
     }
 
     .flag__image {
-        width: 4vw;
+        width: 3vw;
         top: 0;
-        left: 14%;
+        left: 22%;
     }
 
     .profile__image{
-        width: 15vw;
+        width: 10vw;
     }
 
     .blog-footer-media-wrapper__box{
@@ -901,9 +899,13 @@ iframe {
     }
 
     .blog-video-desc {
-        font-size: 1.5em;
+        margin-top: 2em;
+        font-size: 2em;
     }
 
+    .blog-footer-media-wrapper{
+        grid-template-columns: repeat(3,1fr);
+    }
     }
 
     

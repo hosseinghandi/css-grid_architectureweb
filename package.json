@@ -1,6 +1,7 @@
 {
-  "name": "Scrim-s02tiiq",
-  "description": "https://scrimba.com/the-frontend-developer-career-path-c0j/~0fm",
+  "name": "architectural_web-css",
+  "version": "1.0.0",
+  "description": "An architectural design site using HTML and CSS.",
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -8,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vite": "latest"
+    "vite": "^5.2.0"
   },
-  "devDependencies": {}
+  "engines": {
+    "node": "18.x"
+  }
 }

@@ -375,21 +375,21 @@ section {
     font-weight: 100;
 }
 
-/* author decelration  */
+/* author declaration  */
 
-.blog-author-Decelration-wrapper{
+.blog-author-Declaration-wrapper{
     padding: 10em 0;
     background: rgb(242, 226, 190);
     text-align: center;
     line-height: 1.5;
 }
 
-.author-Decelration__title , .blog-tuto-head__text{
+.author-Declaration__title , .blog-tuto-head__text{
     font-size: 3.8em;
     font-weight: 500;
 }
 
-.author-Decelration__desc{
+.author-Declaration__desc{
     font-size: 1.5em;
 }
 
